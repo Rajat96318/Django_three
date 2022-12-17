@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text utils</title>
+</head>
+<body>
+    <!-- date 11-12-2022 ko mai ek haseena wala gana sun raha tha
+    {{name}} is from address {{address}} -->
+    <h1>Welcome to text analyzer. enter your text</h1>
+    <form action="/analyze" method="get">
+        <textarea name="text" style="width: 1092px; height: 79px;">            
+        </textarea>
+        <br>
+        <!-- Creating checkBox -->
+        <input type="checkbox" name="removepunc"> Remove Punctuations<br>
+        <input type="checkbox" name="fullcaps"> Capitalize everything<br>
+        <input type="checkbox" name="newlineremover"> Removing the new line<br>
+        <input type="checkbox" name="removeextraspace"> Removing the extra space<br>
+        <input type="checkbox" name="countcharacter"> Count the number of character<br>
+        <button type="submit">Alalyze Text</button>
+    </form>
+</body>
+</html>
